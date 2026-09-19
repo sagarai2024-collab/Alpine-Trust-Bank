@@ -105,7 +105,7 @@ flowchart TB
 </tr>
 <tr>
 <td>💻 Application</td>
-<td>Java (Spring Boot) + <code>.NET</code> Windows client</td>
+<td><code>.NET</code> Windows client</td>
 <td>Server services + desktop client</td>
 </tr>
 <tr>
@@ -160,7 +160,7 @@ flowchart TB
 ## 📂 Repository Structure
 
 ```
-CTB-UBS/
+Alpine Bank - CTB /
 ├── 📄 README.md                    ← You are here
 ├── 📄 CHANGELOG.md                 ← Release history
 ├── 📄 pom.xml                      ← Maven Project Object Model
@@ -250,7 +250,7 @@ flowchart LR
 ```bash
 # 1. Clone the repository
 git clone <repo-url>
-cd CTB-UBS
+cd Alpine Bank
 
 # 2. Copy settings.xml to your Maven home (one-time)
 cp settings.xml ~/.m2/settings.xml      # Linux / macOS
@@ -282,7 +282,7 @@ dotnet test --no-build
 
 ```bash
 # Azure DevOps
-az pipelines create --name CTB-UBS-Build --yml-path azure-pipelines.yml
+az pipelines create --name Alpine Bank-Build --yml-path azure-pipelines.yml
 
 # GitLab
 # Pipeline auto-registers from .gitlab-ci.yml on first push to main
