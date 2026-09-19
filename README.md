@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🏦 CTB UBS
+# 🏦 Banking Project
 
 ### Cut-To-Build Server Migration — Swiss Bank Project
 
