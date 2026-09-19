@@ -34,7 +34,7 @@
 
 This migration project that re-platforms a legacy Windows application onto the modern enterprise stack — Azure DevOps for CI/CD, Nexus for artifact management, Puppet for configuration management, and a hardened three-tier (DD2) architecture.
 
-The migration follows a strict **Cut-To-Build (CTB)** lifecycle: every change flows through code review, automated build, security scanning, artifact publication, and gated deployment to the Dev1 environment before promotion further.
+The migration follows a strict **Cut-To-Build (Alpine Trust Bank-CTB)** lifecycle: every change flows through code review, automated build, security scanning, artifact publication, and gated deployment to the Dev1 environment before promotion further.
 
 ### 🎁 Project Goals
 
